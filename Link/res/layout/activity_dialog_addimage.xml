@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF" />
+ 
+     <Button
+        android:id="@+id/dialogButtonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"/>
+
+     <Button
+         android:id="@+id/dialogButtonCamera"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="15dp"
+         android:layout_alignBaseline="@+id/dialogButtonPicture"
+         android:layout_alignBottom="@+id/dialogButtonPicture"
+         android:layout_alignParentRight="true"
+         android:text="Camera" />
+
+     <Button
+         android:id="@+id/dialogButtonPicture"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/dialogButtonCancel"
+         android:layout_alignBottom="@+id/dialogButtonCancel"
+         android:layout_toRightOf="@+id/dialogButtonCancel"
+         android:text="Import From Picture"
+         android:textSize="15dp" />
+ 
+</RelativeLayout>

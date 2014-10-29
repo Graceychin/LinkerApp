@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.link"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/title_activity_main_menu"
+            android:parentActivityName=".Login" >
+        </activity>
+        <activity
+            android:name=".NewPost"
+            android:label="@string/title_activity_new_post"
+            android:parentActivityName=".MainMenu" >
+        </activity>
+        <activity
+            android:name=".SaveNewPost"
+            android:label="@string/title_activity_save_new_post"
+            android:parentActivityName=".MainMenu" >
+        </activity>
+        <activity
+            android:name=".ListPosts"
+            android:label="@string/title_activity_list_posts"
+            android:parentActivityName=".MainMenu" >
+        </activity>
+        <activity
+            android:name=".ClickedPost"
+            android:label="@string/title_activity_clicked_post"
+            android:parentActivityName=".ListPosts" >
+        </activity>
+        <activity
+            android:name=".DisplayPost"
+            android:label="@string/title_activity_display_post"
+            android:parentActivityName=".ListPosts" >
+        </activity>
+    </application>
+
+</manifest>

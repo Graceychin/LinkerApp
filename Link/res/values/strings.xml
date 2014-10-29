@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Linker</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_password">Password</string>
+    <string name="button_sign_in">Sign In</string>
+    <string name="button_create_account">Create Account</string>
+    <string name="LinkerLogoName">LINKER</string>
+    <string name="user_name">User Name</string>
+    <string name="title_activity_main_menu">Main Menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_free_stuff">Free Stuff</string>
+    <string name="button_events">Events</string>
+    <string name="button_traffic">Traffic</string>
+    <string name="add_event">Add New Post</string>
+    <string name="logout">Logout</string>
+    <string name="title">Linker</string>
+    <string name="title_activity_new_post">NewPost</string>
+    <string name="button_crime_updates">Crime Updates</string>
+    <string name="button">Create New Post</string>
+    <string name="newPost"></string>
+    <string name="addImage">Add Image</string>
+    <string name="searchLocation">Search for location</string>
+    <string name="description">Description:</string>
+    <string name="submitButton">Submit!</string>
+    <string name="enterAddress">Enter your address</string>
+    <string name="searchButton1">Search</string>
+    <string name="title_activity_save_new_post"></string>
+    <string name="title_activity_list_posts">Free Stuff Postings</string>
+    <string name="title_activity_list_single">ListSingle</string>
+    <string name="title_activity_clicked_post">ClickedPost</string>
+    <string name="title_activity_display_post">DisplayPost</string>
+
+</resources>
